@@ -26,7 +26,7 @@ def select_hmi():
 
 def main():
     root = tk.Tk()
-    root.title("AlphaServerUpdater")
+    root.title("AlphaHMIUpdater")
 
     tk.Label(root, text="Host 1 IP Address:").grid(row=0, column=0)
     host1_entry = tk.Entry(root)
